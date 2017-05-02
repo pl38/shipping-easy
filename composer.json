@@ -1,0 +1,29 @@
+{
+    "name" : "maverickslab/shipping-easy",
+    "description" : "This is a laravel package for interacting with ShippingEasy's api",
+    "type" : "library",
+    "license" : "MIT",
+    "keywords" : [
+        "ebay",
+        "laravel"
+    ],
+    "authors" : [
+        {
+            "name" : "Albert Fiati-Kumasenu",
+            "email" : "albert@syncommerceapp.com"
+        }
+    ],
+    "require" : {
+        "php" : "^5.3.3 || ^7.0",
+        "guzzlehttp/guzzle" : "^6.2"
+    },
+    "autoload" : {
+        "classmap" : [
+            "src/shipping_easy-php"
+        ],
+        "psr-4" : {
+            "Maverickslab\\Shipeasy\\" : "src/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
