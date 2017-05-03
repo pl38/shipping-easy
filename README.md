@@ -12,4 +12,8 @@ This package provides the basic utilities for interfacing with the ShippingEasy 
 2. php artisan **vendor:publish**
 3. update your **shippingeasy.php** file in /conf
 
-## Making Request
+## Features
+1. Get list of subscriptions
+2. Enroll merchant on ShippingEasy
+3. Import orders from ShippingEasy
+4. Export order to ShippingEasy
