@@ -1,5 +1,5 @@
 {
-    "name" : "maverickslab/shipping-easy",
+    "name" : "pl38/shipping-easy",
     "description" : "This is a laravel package for interacting with ShippingEasy's api",
     "type" : "library",
     "license" : "MIT",
@@ -9,12 +9,12 @@
     ],
     "authors" : [
         {
-            "name" : "Albert Fiati-Kumasenu",
-            "email" : "albert@syncommerceapp.com"
+            "name" : "",
+            "email" : ""
         }
     ],
     "require" : {
-        "php" : "^5.3.3 || ^7.0",
+        "php" : "^7.1",
         "guzzlehttp/guzzle" : "^6.2"
     },
     "autoload" : {
@@ -25,5 +25,6 @@
             "Maverickslab\\Shipeasy\\" : "src/"
         }
     },
-    "minimum-stability" : "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
